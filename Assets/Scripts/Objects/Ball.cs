@@ -2,17 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ball : MonoBehaviour
+namespace EndlessBall
 {
-    // Start is called before the first frame update
-    void Start()
+    /// <summary>
+    /// Класс шарика
+    /// </summary>
+    public sealed class Ball : BaseObject
     {
-        
-    }
+        private void Start()
+        {
+            
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        private void Update()
+        {
+            
+        }
     }
 }

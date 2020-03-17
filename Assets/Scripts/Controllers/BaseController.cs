@@ -2,17 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BaseController : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+namespace EndlessBall.Controllers
+{
+    /// <summary>
+    /// Базовый класс всех контроллеров
+    /// </summary>
+    public abstract class BaseController : MonoBehaviour
     {
-        
+
     }
 }
